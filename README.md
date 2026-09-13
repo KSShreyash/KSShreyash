@@ -15,7 +15,7 @@ backward pass by hand in C++ because a framework was hiding the interesting part
 ```cpp
 struct Wizard {
     std::string name     = "Kumar Shreyash";
-    std::string house    = "Full-stack, with a Robotics minor";
+    std::string house    = "Full-stack (AI Application)";
     std::string patronus = "A working build on the first try";
     std::string boggart  = "Segmentation fault (core dumped)";
 
