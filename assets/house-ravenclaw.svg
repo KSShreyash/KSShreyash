@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 112" width="1000" height="112" role="img" aria-label="RAVENCLAW — Potions and charms">
+<title>RAVENCLAW — Potions and charms</title>
+<defs>
+  <linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0"   stop-color="#0e1a40"/>
+    <stop offset="0.62" stop-color="#0e1a40"/>
+    <stop offset="1"   stop-color="#081129"/>
+  </linearGradient>
+  <clipPath id="clip"><path d="M0,0 H1000 V88 L975,112 L950,88 L925,112 L900,88 L875,112 L850,88 L825,112 L800,88 L775,112 L750,88 L725,112 L700,88 L675,112 L650,88 L625,112 L600,88 L575,112 L550,88 L525,112 L500,88 L475,112 L450,88 L425,112 L400,88 L375,112 L350,88 L325,112 L300,88 L275,112 L250,88 L225,112 L200,88 L175,112 L150,88 L125,112 L100,88 L75,112 L50,88 L25,112 L0,88 Z"/></clipPath>
+</defs>
+
+<path d="M0,0 H1000 V88 L975,112 L950,88 L925,112 L900,88 L875,112 L850,88 L825,112 L800,88 L775,112 L750,88 L725,112 L700,88 L675,112 L650,88 L625,112 L600,88 L575,112 L550,88 L525,112 L500,88 L475,112 L450,88 L425,112 L400,88 L375,112 L350,88 L325,112 L300,88 L275,112 L250,88 L225,112 L200,88 L175,112 L150,88 L125,112 L100,88 L75,112 L50,88 L25,112 L0,88 Z" fill="url(#cloth)"/>
+
+<!-- woven texture -->
+<g clip-path="url(#clip)" stroke="#b08d43" stroke-width="1" opacity=".055">
+  <path d="M0,-20 L-140,132"/>
+  <path d="M26,-20 L-114,132"/>
+  <path d="M52,-20 L-88,132"/>
+  <path d="M78,-20 L-62,132"/>
+  <path d="M104,-20 L-36,132"/>
+  <path d="M130,-20 L-10,132"/>
+  <path d="M156,-20 L16,132"/>
+  <path d="M182,-20 L42,132"/>
+  <path d="M208,-20 L68,132"/>
+  <path d="M234,-20 L94,132"/>
+  <path d="M260,-20 L120,132"/>
+  <path d="M286,-20 L146,132"/>
+  <path d="M312,-20 L172,132"/>
+  <path d="M338,-20 L198,132"/>
+  <path d="M364,-20 L224,132"/>
+  <path d="M390,-20 L250,132"/>
+  <path d="M416,-20 L276,132"/>
+  <path d="M442,-20 L302,132"/>
+  <path d="M468,-20 L328,132"/>
+  <path d="M494,-20 L354,132"/>
+  <path d="M520,-20 L380,132"/>
+  <path d="M546,-20 L406,132"/>
+  <path d="M572,-20 L432,132"/>
+  <path d="M598,-20 L458,132"/>
+  <path d="M624,-20 L484,132"/>
+  <path d="M650,-20 L510,132"/>
+  <path d="M676,-20 L536,132"/>
+  <path d="M702,-20 L562,132"/>
+  <path d="M728,-20 L588,132"/>
+  <path d="M754,-20 L614,132"/>
+  <path d="M780,-20 L640,132"/>
+  <path d="M806,-20 L666,132"/>
+  <path d="M832,-20 L692,132"/>
+  <path d="M858,-20 L718,132"/>
+  <path d="M884,-20 L744,132"/>
+  <path d="M910,-20 L770,132"/>
+  <path d="M936,-20 L796,132"/>
+  <path d="M962,-20 L822,132"/>
+  <path d="M988,-20 L848,132"/>
+  <path d="M1014,-20 L874,132"/>
+  <path d="M1040,-20 L900,132"/>
+  <path d="M1066,-20 L926,132"/>
+  <path d="M1092,-20 L952,132"/>
+  <path d="M1118,-20 L978,132"/>
+  <path d="M1144,-20 L1004,132"/>
+  <path d="M1170,-20 L1030,132"/>
+  <path d="M1196,-20 L1056,132"/>
+  <path d="M1222,-20 L1082,132"/>
+  <path d="M1248,-20 L1108,132"/>
+  <path d="M1274,-20 L1134,132"/>
+</g>
+
+<!-- the rod it hangs from -->
+<rect width="1000" height="3" fill="#b08d43" opacity=".55"/>
+
+<!-- crest -->
+<g transform="translate(30,16)">
+  <path d="M2,2 H50 V34 C50,48.5 39,57.5 26,61 C13,57.5 2,48.5 2,34 Z"
+        fill="#081129" stroke="#b08d43" stroke-width="1.7" opacity=".95"/>
+  <g transform="translate(26,30) scale(0.82) translate(-22,-22)">
+    <path d="M22,4 L25.5,8 L24,12 L36,10 C43,12 44,20 41,27 L31,20 L29,30 L22,40
+             L15,30 L13,20 L3,27 C0,20 1,12 8,10 L20,12 L18.5,8 Z" fill="#b08d43"/>
+    <path d="M22,14 L22,34" stroke="#081129" stroke-width="1.6" opacity=".5"/></g>
+</g>
+
+<g font-family="'Palatino Linotype','Book Antiqua',Palatino,'Iowan Old Style',Georgia,serif">
+  <text x="112" y="46" font-size="21" letter-spacing="5.2" fill="#b08d43">RAVENCLAW</text>
+  <text x="114" y="68" font-size="12.5" letter-spacing="1.4" fill="#dde4f1" opacity=".6" font-style="italic">wit, learning, wisdom</text>
+
+  <path d="M372,24 V76" stroke="#b08d43" stroke-width="1" opacity=".38"/>
+
+  <text x="400" y="47" font-size="27" fill="#dde4f1">Potions and charms</text>
+  <text x="402" y="69" font-size="13" letter-spacing=".4" fill="#dde4f1" opacity=".62">The tools I reach for, sorted by what they do</text>
+</g>
+</svg>

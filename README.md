@@ -1,20 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/KSShreyash/KSShreyash/main/assets/banner.svg" alt="Kumar Shreyash" width="100%"/>
+  <img src="https://raw.githubusercontent.com/KSShreyash/KSShreyash/main/assets/castle-banner.svg" alt="Hogwarts castle above the Black Lake at dawn — Kumar Shreyash" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=21&duration=3400&pause=900&color=D3A625&center=true&vCenter=true&width=640&lines=I+solemnly+swear+I+am+up+to+no+good.;Turning+caffeine+into+working+builds.;Wand%3A+C%2B%2B.+Core%3A+curiosity.+Length%3A+11+inches." alt=""/>
+  <img src="https://readme-typing-svg.demolab.com?font=IM+Fell+English&size=23&duration=3600&pause=900&color=D3A625&center=true&vCenter=true&width=720&lines=I+solemnly+swear+I+am+up+to+no+good.;Turning+caffeine+into+working+builds.;Wand%3A+C%2B%2B.+Core%3A+curiosity.+Length%3A+11+inches." alt="I solemnly swear I am up to no good."/>
 </p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/kumarshreyash25/"><img src="https://img.shields.io/badge/Owl_Post-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b0e14"/></a>
-  <a href="mailto:kumarshreyash2504@gmail.com"><img src="https://img.shields.io/badge/Send_a_Howler-Email-D3A625?style=for-the-badge&logo=gmail&logoColor=0b0e14&labelColor=0b0e14"/></a>
-  <img src="https://komarev.com/ghpvc/?username=KSShreyash&style=for-the-badge&color=7F0909&label=Visitors+to+the+Common+Room"/>
-</p>
-
----
-
-## 🪄 The Sorting Hat's Verdict
 
 > *Plenty of nerve, and a mind that won't sit still... better be — **BUILDER**.*
 
@@ -37,17 +27,51 @@ struct Wizard {
 };
 ```
 
-- 🏰 **Yolex Labs** — built AI agents for workflow analysis
-- 🧪 **Samsung PRISM, Samsung R&D India** — research intern, C/C++ for embedded & deep learning
-- 🦁 **Sangam Club** — Technical Lead
-- 🔮 Ask me about React + FastAPI architectures, LLM agents, or backprop through time
-
----
-
-## ⚗️ Potions, Charms & Artefacts
+<img src="https://raw.githubusercontent.com/KSShreyash/KSShreyash/main/assets/house-gryffindor.svg" alt="Gryffindor — Spells I've cast: projects, and what each one taught me" width="100%"/>
 
 <table>
-<tr><td width="130"><b>Wandwork</b><br/><sub>languages</sub></td><td>
+<tr>
+<td width="33%" valign="top">
+
+### LSTM in pure C++
+*No autograd. No PyTorch. No mercy.*
+
+A long short-term memory network written from scratch — gates, cell state, and
+backpropagation through time all derived and implemented by hand. The kind of project
+that teaches you what a framework is doing while you aren't looking.
+
+<sub>`C++` &nbsp; `linear algebra` &nbsp; `BPTT`</sub>
+
+</td>
+<td width="33%" valign="top">
+
+### Problem Tracking Agent
+*A Pensieve for your workflow.*
+
+A GPT-4o agent that reads workflow signals, spots the problems that keep resurfacing,
+and reports them before anyone files a ticket.
+
+<sub>`Python` &nbsp; `GPT-4o` &nbsp; `agents`</sub>
+
+</td>
+<td width="33%" valign="top">
+
+### AI Workspace Assistant
+*Owl post, automated.*
+
+A Microsoft Graph–backed assistant handling calendar, mail, and document workflows
+through plain language instead of six open tabs.
+
+<sub>`Python` &nbsp; `Graph API` &nbsp; `LLM`</sub>
+
+</td>
+</tr>
+</table>
+
+<img src="https://raw.githubusercontent.com/KSShreyash/KSShreyash/main/assets/house-ravenclaw.svg" alt="Ravenclaw — Potions and charms: the tools I reach for, sorted by what they do" width="100%"/>
+
+<table>
+<tr><td width="150"><b>Wandwork</b><br/><sub>languages</sub></td><td>
 
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
@@ -73,7 +97,7 @@ struct Wizard {
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 
 </td></tr>
-<tr><td><b>Dark Arts</b><br/><sub>ai &amp; tooling</sub></td><td>
+<tr><td><b>Divination</b><br/><sub>ai &amp; tooling</sub></td><td>
 
 ![GPT-4o](https://img.shields.io/badge/GPT--4o-412991?style=flat-square&logo=openai&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -83,69 +107,52 @@ struct Wizard {
 </td></tr>
 </table>
 
----
-
-## 📜 Spells I've Cast
+<img src="https://raw.githubusercontent.com/KSShreyash/KSShreyash/main/assets/house-slytherin.svg" alt="Slytherin — The ascent: where I've worked and what I earned there" width="100%"/>
 
 <table>
 <tr>
-<td width="33%" valign="top">
-
-### 🐍 LSTM in Pure C++
-*No autograd. No PyTorch. No mercy.*
-
-A long short-term memory network written from scratch — gates, cell state, and
-backpropagation through time all derived and implemented by hand. The kind of project
-that teaches you what a framework is doing while you aren't looking.
-
-`C++` · `linear algebra` · `BPTT`
-
-</td>
-<td width="33%" valign="top">
-
-### 🔍 Problem Tracking Agent
-*A Pensieve for your workflow.*
-
-A GPT-4o agent that reads workflow signals, spots the problems that keep resurfacing,
-and reports them before anyone files a ticket.
-
-`Python` · `GPT-4o` · `agents`
-
-</td>
-<td width="33%" valign="top">
-
-### 🦉 AI Workspace Assistant
-*Owl post, automated.*
-
-A Microsoft Graph–backed assistant handling calendar, mail, and document workflows
-through plain language instead of six open tabs.
-
-`Python` · `Graph API` · `LLM`
-
-</td>
+<td width="215" valign="top"><b>Yolex Labs</b><br/><sub>Software Developer</sub></td>
+<td valign="top">Built AI agents for workflow analysis — the kind that read a team's signals and surface the problem before someone writes the ticket.</td>
+</tr>
+<tr>
+<td width="215" valign="top"><b>Samsung R&amp;D India</b><br/><sub>Research Intern, Samsung PRISM</sub></td>
+<td valign="top">C and C++ for embedded systems and deep learning, where the memory budget is the design constraint rather than an afterthought.</td>
+</tr>
+<tr>
+<td width="215" valign="top"><b>Sangam Club</b><br/><sub>Technical Lead</sub></td>
+<td valign="top">Led the technical side of a student body — shipping under deadlines set by people who don't care how hard the deadline is.</td>
 </tr>
 </table>
 
+<p align="center">
+  <img src="https://github-trophies.vercel.app/?username=KSShreyash&theme=gruvbox&no-frame=true&no-bg=true&column=7&margin-w=6&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="Trophy case"/>
+</p>
+
+<img src="https://raw.githubusercontent.com/KSShreyash/KSShreyash/main/assets/house-hufflepuff.svg" alt="Hufflepuff — The common room: the daily grind, and how to reach me" width="100%"/>
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=KSShreyash&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1f25&title_color=D3A625&text_color=c9d1d9&icon_color=D3A625" alt="GitHub stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KSShreyash&layout=compact&langs_count=8&hide_border=true&bg_color=0d1f25&title_color=D3A625&text_color=c9d1d9" alt="Most used languages"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=KSShreyash&hide_border=true&background=0d1f25&stroke=D3A625&ring=D3A625&fire=FF9D2E&currStreakLabel=D3A625&sideLabels=c9d1d9&dates=8b949e" alt="Contribution streak"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/followers/KSShreyash?style=for-the-badge&logo=github&label=Followers&color=D3A625&labelColor=171103" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/KSShreyash?affiliations=OWNER&style=for-the-badge&logo=github&label=Stars+earned&color=D3A625&labelColor=171103" alt="Stars earned"/>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/kumarshreyash25/"><img src="https://img.shields.io/badge/Owl_Post-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=171103"/></a>
+  <a href="mailto:kumarshreyash2504@gmail.com"><img src="https://img.shields.io/badge/Send_a_Howler-Email-ECB939?style=for-the-badge&logo=gmail&logoColor=171103&labelColor=171103"/></a>
+  <img src="https://komarev.com/ghpvc/?username=KSShreyash&style=for-the-badge&color=7F0909&label=Visitors+to+the+common+room"/>
+</p>
+
 ---
 
-## 🏆 The Trophy Room
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=KSShreyash&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0b0e14&title_color=D3A625&text_color=c9d1d9&icon_color=D3A625" alt=""/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KSShreyash&layout=compact&langs_count=8&hide_border=true&bg_color=0b0e14&title_color=D3A625&text_color=c9d1d9" alt=""/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KSShreyash&hide_border=true&background=0b0e14&stroke=D3A625&ring=D3A625&fire=FF9D2E&currStreakLabel=D3A625&sideLabels=c9d1d9&dates=8b949e" alt=""/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=KSShreyash&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6" alt=""/>
-</p>
-
----
-
-## 🗺️ The Marauder's Map
+<h3 align="center">The Marauder's Map</h3>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/KSShreyash/KSShreyash/output/snake.svg" alt="A serpent devouring my contribution graph"/>

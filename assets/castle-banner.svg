@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-labelledby="ttl desc">
+<title id="ttl">Hogwarts castle above the Black Lake at dawn</title>
+<desc id="desc">Kumar Shreyash — builds AI agents by day, writes backprop by hand at night.</desc>
+
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0"    stop-color="#77909a"/>
+    <stop offset="0.34" stop-color="#a2b3b4"/>
+    <stop offset="0.66" stop-color="#cbc7ba"/>
+    <stop offset="1"    stop-color="#e0d7c4"/>
+  </linearGradient>
+
+  <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0"    stop-color="#12272d"/>
+    <stop offset="0.45" stop-color="#0d1f25"/>
+    <stop offset="1"    stop-color="#071318"/>
+  </linearGradient>
+
+  <radialGradient id="dawn" cx="0.56" cy="1" r="0.72">
+    <stop offset="0"    stop-color="#f4e8ca" stop-opacity=".9"/>
+    <stop offset="0.55" stop-color="#eadfc6" stop-opacity=".35"/>
+    <stop offset="1"    stop-color="#eadfc6" stop-opacity="0"/>
+  </radialGradient>
+
+  <linearGradient id="reffade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".30"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <mask id="refmask">
+    <rect x="360" y="215" width="500" height="62" fill="url(#reffade)"/>
+  </mask>
+
+  <filter id="soft" x="-40%" y="-300%" width="180%" height="700%">
+    <feGaussianBlur stdDeviation="7"/>
+  </filter>
+  <filter id="softer" x="-40%" y="-400%" width="180%" height="900%">
+    <feGaussianBlur stdDeviation="11"/>
+  </filter>
+
+  <style>
+    .tw   { animation: tw 6s ease-in-out infinite; }
+    @keyframes tw { 0%,100% { opacity:.28 } 50% { opacity:.95 } }
+    .mist { animation: drift 30s ease-in-out infinite alternate; }
+    @keyframes drift { from { transform: translateX(-64px) } to { transform: translateX(64px) } }
+    .mist2 { animation: drift2 46s ease-in-out infinite alternate; }
+    @keyframes drift2 { from { transform: translateX(46px) } to { transform: translateX(-46px) } }
+    @media (prefers-reduced-motion: reduce) {
+      .tw, .mist, .mist2 { animation: none; }
+    }
+  </style>
+</defs>
+
+<!-- ── sky ─────────────────────────────────────────────── -->
+<rect width="1000" height="215" fill="url(#sky)"/>
+<ellipse cx="560" cy="215" rx="430" ry="120" fill="url(#dawn)"/>
+
+<g filter="url(#softer)" fill="#ffffff">
+  <g class="mist2">
+    <ellipse cx="210" cy="50" rx="170" ry="7" opacity=".22"/>
+    <ellipse cx="716" cy="34" rx="210" ry="6" opacity=".18"/>
+  </g>
+  <ellipse class="mist" cx="440" cy="80" rx="140" ry="5" opacity=".16"/>
+</g>
+
+<!-- ── distant ridges ──────────────────────────────────── -->
+<path d="M0,215 L0,156 L48,130 L96,150 L152,116 L208,146 L264,124 L318,156 L362,178 L404,215 Z"
+      fill="#93a7a9" opacity=".46"/>
+<path d="M1000,215 L1000,166 L958,146 L912,166 L866,150 L838,172 L860,196 L898,215 Z"
+      fill="#8399a0" opacity=".40"/>
+<path d="M0,215 L0,182 L62,159 L120,176 L174,150 L234,172 L294,157 L342,180 L384,198 L416,215 Z"
+      fill="#71878d" opacity=".58"/>
+
+<!-- ── castle ──────────────────────────────────────────── -->
+<g id="castle">
+  <!-- low sprawl down the western slope -->
+  <g fill="#1d3239">
+    <rect x="352" y="156" width="30" height="54"/>
+    <polygon points="348,156 386,156 367,143"/>
+    <rect x="376" y="150" width="26" height="60"/>
+    <polygon points="372,150 406,150 389,138"/>
+  </g>
+
+  <!-- curtain walls tying the towers into one mass -->
+  <g fill="#1f353c">
+    <rect x="398" y="146" width="118" height="64"/>
+    <rect x="508" y="140" width="106" height="70"/>
+    <rect x="606" y="152" width="152" height="58"/>
+  </g>
+
+  <g fill="#243d45">
+    <!-- T1 -->
+    <rect x="384" y="134" width="22" height="76"/>
+    <polygon points="381,134 409,134 395,113"/>
+    <!-- T2 -->
+    <rect x="408" y="122" width="30" height="88"/>
+    <polygon points="404,122 442,122 423,97"/>
+    <rect x="421.5" y="85" width="3" height="13"/>
+    <!-- Great Hall -->
+    <rect x="442" y="130" width="66" height="80"/>
+    <polygon points="438,130 512,130 475,107"/>
+    <rect x="454" y="97" width="5" height="12"/>
+    <rect x="490" y="97" width="5" height="12"/>
+    <!-- T3 -->
+    <rect x="512" y="110" width="20" height="100"/>
+    <polygon points="508,110 536,110 522,84"/>
+    <rect x="520.5" y="71" width="3" height="14"/>
+    <!-- T4 — the Astronomy tower, and it should win -->
+    <rect x="536" y="80" width="36" height="130"/>
+    <polygon points="530,80 578,80 554,24"/>
+    <rect x="552.5" y="6" width="3" height="19"/>
+    <circle cx="554" cy="5" r="3.2"/>
+    <!-- T5 -->
+    <rect x="576" y="118" width="24" height="92"/>
+    <polygon points="572,118 604,118 588,94"/>
+    <!-- Hall 2 -->
+    <rect x="602" y="134" width="54" height="76"/>
+    <polygon points="598,134 660,134 629,114"/>
+    <!-- T6 -->
+    <rect x="658" y="112" width="32" height="98"/>
+    <polygon points="653,112 695,112 674,84"/>
+    <rect x="672.5" y="71" width="3" height="14"/>
+    <!-- T7 -->
+    <rect x="692" y="130" width="22" height="80"/>
+    <polygon points="688,130 718,130 703,110"/>
+    <!-- T8 -->
+    <rect x="716" y="120" width="34" height="90"/>
+    <polygon points="711,120 755,120 733,94"/>
+    <rect x="731.5" y="82" width="3" height="13"/>
+    <!-- T9 -->
+    <rect x="752" y="142" width="20" height="68"/>
+    <polygon points="748,142 776,142 762,124"/>
+  </g>
+
+  <!-- battlements -->
+  <g fill="#243d45">
+    <rect x="400" y="141" width="6" height="6"/><rect x="412" y="141" width="6" height="6"/>
+    <rect x="424" y="141" width="6" height="6"/><rect x="436" y="141" width="6" height="6"/>
+    <rect x="616" y="147" width="6" height="6"/><rect x="628" y="147" width="6" height="6"/>
+    <rect x="640" y="147" width="6" height="6"/><rect x="652" y="147" width="6" height="6"/>
+    <rect x="700" y="147" width="6" height="6"/><rect x="712" y="147" width="6" height="6"/>
+    <rect x="724" y="147" width="6" height="6"/><rect x="736" y="147" width="6" height="6"/>
+  </g>
+</g>
+
+<!-- lit windows -->
+<g fill="#f2c879">
+  <rect x="360" y="166" width="3" height="5"/><rect x="374" y="166" width="3" height="5"/>
+  <rect x="384" y="160" width="3" height="5"/>
+  <rect x="390" y="142" width="3" height="5"/><rect x="398" y="152" width="3" height="5"/>
+  <rect x="414" y="132" width="3" height="5"/><rect x="430" y="144" width="3" height="5"/>
+  <rect x="422" y="156" width="3" height="5"/>
+  <rect x="450" y="138" width="4" height="8"/><rect x="474" y="138" width="4" height="8"/>
+  <rect x="498" y="138" width="4" height="8"/><rect x="462" y="156" width="4" height="8"/>
+  <rect x="518" y="120" width="3" height="5"/><rect x="526" y="144" width="3" height="5"/>
+  <rect x="543" y="92"  width="3" height="5"/><rect x="562" y="106" width="3" height="5"/>
+  <rect x="553" y="120" width="3" height="5"/><rect x="543" y="134" width="3" height="5"/>
+  <rect x="582" y="128" width="3" height="5"/><rect x="591" y="150" width="3" height="5"/>
+  <rect x="610" y="142" width="3" height="6"/><rect x="634" y="142" width="3" height="6"/>
+  <rect x="622" y="158" width="3" height="6"/>
+  <rect x="665" y="122" width="3" height="5"/><rect x="683" y="136" width="3" height="5"/>
+  <rect x="698" y="138" width="3" height="5"/><rect x="723" y="130" width="3" height="5"/>
+  <rect x="741" y="144" width="3" height="5"/><rect x="758" y="152" width="3" height="5"/>
+  <!-- twinkling -->
+  <rect class="tw" style="animation-delay:-0.4s" x="406" y="148" width="3" height="5"/>
+  <rect class="tw" style="animation-delay:-1.9s" x="486" y="156" width="4" height="8"/>
+  <rect class="tw" style="animation-delay:-3.1s" x="553" y="148" width="3" height="5"/>
+  <rect class="tw" style="animation-delay:-2.2s" x="562" y="134" width="3" height="5"/>
+  <rect class="tw" style="animation-delay:-4.4s" x="646" y="142" width="3" height="6"/>
+  <rect class="tw" style="animation-delay:-0.9s" x="675" y="150" width="3" height="5"/>
+  <rect class="tw" style="animation-delay:-5.2s" x="706" y="152" width="3" height="5"/>
+  <rect class="tw" style="animation-delay:-2.7s" x="733" y="156" width="3" height="5"/>
+  <rect class="tw" style="animation-delay:-3.8s" x="366" y="178" width="3" height="5"/>
+</g>
+
+<!-- ── the crag, drawn over the castle footings so the walls grow out of the rock ── -->
+<g id="rock">
+  <path d="M288,215 L318,210 L342,200 L356,184 L370,190 L388,174 L406,178 L422,166 L450,170
+           L468,162 L498,166 L514,161 L546,163 L568,160 L598,166 L626,163 L652,170 L674,172
+           L698,178 L720,176 L740,186 L760,192 L780,200 L802,204 L820,210 L842,215 Z"
+        fill="#16292f"/>
+  <!-- faceted rock planes: west catches the dawn, east falls into shadow -->
+  <path d="M342,200 L356,184 L370,190 L388,174 L400,215 L320,215 Z" fill="#27424c"/>
+  <path d="M388,174 L406,178 L422,166 L450,170 L456,215 L396,215 Z" fill="#152a31"/>
+  <path d="M450,170 L468,162 L498,166 L514,161 L546,163 L552,215 L452,215 Z" fill="#22393f"/>
+  <path d="M546,163 L568,160 L598,166 L626,163 L652,170 L648,215 L548,215 Z" fill="#193037"/>
+  <path d="M652,170 L674,172 L698,178 L720,176 L740,186 L760,192 L780,200 L802,204 L820,210 L842,215 L646,215 Z"
+        fill="#0e1e24"/>
+  <!-- cleavage -->
+  <g stroke="#0b191e" stroke-width="1.5" opacity=".45" fill="none" stroke-linecap="round">
+    <path d="M398,192 L393,215"/><path d="M459,196 L464,215"/>
+    <path d="M550,190 L545,215"/><path d="M649,194 L655,215"/><path d="M716,198 L711,215"/>
+  </g>
+  <!-- rim light, only on the up-facing edges -->
+  <g fill="none" stroke="#628790" stroke-width="1.2" opacity=".40" stroke-linecap="round">
+    <path d="M356,184 L370,190 L388,174"/>
+    <path d="M422,166 L450,170 L468,162 L498,166"/>
+    <path d="M546,163 L568,160 L598,166"/>
+  </g>
+</g>
+
+<!-- ── viaduct ─────────────────────────────────────────── -->
+<path fill-rule="evenodd" fill="#152a31"
+      d="M800,184 H1000 V215 H800 Z
+         M814,215 V203 A12,12 0 0 1 838,203 V215 Z
+         M850,215 V203 A12,12 0 0 1 874,203 V215 Z
+         M886,215 V203 A12,12 0 0 1 910,203 V215 Z
+         M922,215 V203 A12,12 0 0 1 946,203 V215 Z
+         M958,215 V203 A13,13 0 0 1 984,203 V215 Z"/>
+<rect x="800" y="182" width="200" height="4" fill="#2c4a54"/>
+
+<!-- ── the Black Lake ──────────────────────────────────── -->
+<rect y="215" width="1000" height="85" fill="url(#water)"/>
+<path d="M288,215 H842" stroke="#4e737c" stroke-width="1" opacity=".40"/>
+
+<g mask="url(#refmask)">
+  <use xlink:href="#castle" href="#castle" transform="translate(0,430) scale(1,-1)" opacity=".38"/>
+</g>
+
+<g stroke="#5d8189" stroke-width="1" opacity=".15" stroke-linecap="round">
+  <path d="M432,231 H566 M624,227 H722 M392,245 H492 M606,249 H698 M474,263 H568 M700,236 H772"/>
+</g>
+<g stroke="#f2c879" stroke-width="1.2" opacity=".12" stroke-linecap="round">
+  <path d="M520,233 H618 M542,247 H612 M558,259 H596"/>
+</g>
+
+<!-- ── mist on the water ───────────────────────────────── -->
+<g filter="url(#soft)" fill="#dbe6e4">
+  <ellipse class="mist"  cx="430" cy="203" rx="220" ry="6" opacity=".26"/>
+  <ellipse class="mist2" cx="726" cy="210" rx="190" ry="5" opacity=".20"/>
+  <ellipse class="mist"  cx="176" cy="207" rx="150" ry="4" opacity=".16"/>
+</g>
+
+<!-- ── name ────────────────────────────────────────────── -->
+<g font-family="'Palatino Linotype','Book Antiqua',Palatino,'Iowan Old Style',Georgia,serif">
+  <text x="58" y="264" font-size="31" letter-spacing="6.5" fill="#e8e0d0">Kumar Shreyash</text>
+  <text x="60" y="285" font-size="12.5" letter-spacing="2.1" fill="#8fa5a8" font-style="italic">Builds AI agents by day. Writes backprop by hand at night.</text>
+</g>
+</svg>
